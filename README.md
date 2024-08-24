@@ -10,6 +10,4 @@ Included is the functionality to:
 - Display top 5 winners/places
 - Write the results to a csv file
 
-The program was particularly useful as the excel was not user friendly, and it took quite some time to work out the number of points per site. In addition, it was very easy to make a mistake.
-
-As the competition was live, the senior management often would ask for an update on the leaderboard. This program made that very easy and quick to work out, compared to the manual error prone process.
+The project was a massive time saver for being able to print different stats including a leaderboard, and write this to a csv file to be able to share.
