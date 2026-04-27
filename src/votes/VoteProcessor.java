@@ -161,12 +161,12 @@ public class VoteProcessor {
 				//split
 				parts = line.split(",");
 				//[5] = site name voting, [7] 1st, [8] 2nd, [9] 3rd, [10] 4th, [11] 5th
-				String nameVoting = parts[5];
-				String firstVote = parts[7];
-				String secondVote = parts[8];
-				String thirdVote = parts[9];
-				String fourthVote = parts[10];
-				String fifthVote = parts[11];
+				String nameVoting = parts[4];
+				String firstVote = parts[6];
+				String secondVote = parts[7];
+				String thirdVote = parts[8];
+				String fourthVote = parts[9];
+				String fifthVote = parts[10];
 				
 				//check if site already exists in the Map for each one which was voted for
 				if(!sites.containsKey(firstVote)) {
